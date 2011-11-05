@@ -8,7 +8,39 @@
 		
 		<h2>Demo 03 &mdash; Database Content</h2>
 		
-		
+<!---
+		<cfquery dataSource="MrOctopus" name="jokes">
+			SELECT * FROM Joke
+		</cfquery>
+		<cfdump var="#jokes#">
+		<p><cfoutput>Total records: #jokes.RecordCount#. Column list: #jokes.ColumnList#</cfoutput></p>
+--->
+
+<!---
+		<cfquery dataSource="MrOctopus" name="jokes">
+			SELECT JokeId, Joke, JokeType, Rating,
+				IsActive, IsDeleted
+			FROM Joke
+			WHERE IsActive = <cfqueryparam CFSQLType="CF_SQL_BIT" value="1">
+				AND IsDeleted = <cfqueryparam CFSQLType="CF_SQL_BIT" value="0">
+		</cfquery>
+		<cfdump var="#jokes#">
+--->
+
+<!---
+		<cfquery dataSource="MrOctopus" name="jokes">
+			SELECT j.JokeId, Joke, JokeType, Rating,
+				Name,
+				j.IsActive, j.IsDeleted
+			FROM Joke j
+				INNER JOIN JokeType t ON (j.JokeType = t.JokeTypeId)
+			WHERE j.IsActive = <cfqueryparam CFSQLType="CF_SQL_BIT" value="1">
+				AND j.IsDeleted = <cfqueryparam CFSQLType="CF_SQL_BIT" value="0">
+				AND t.IsActive = <cfqueryparam CFSQLType="CF_SQL_BIT" value="1">
+				AND t.IsDeleted = <cfqueryparam CFSQLType="CF_SQL_BIT" value="0">
+		</cfquery>
+		<cfdump var="#jokes#">
+--->
 		
 	</body>
 </html>
