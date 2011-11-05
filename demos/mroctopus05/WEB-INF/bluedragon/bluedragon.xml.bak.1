@@ -6,7 +6,7 @@
     <assert>false</assert>
     <missingtemplatehandler></missingtemplatehandler>
     <tempdirectory>/WEB-INF/bluedragon/work/temp</tempdirectory>
-    <lastfile>/Users/codecamp/Desktop/2011sdcodecamp/demos/mroctopus04/WEB-INF/bluedragon/bluedragon.xml.bak.1</lastfile>
+    <lastfile>/Users/codecamp/Desktop/2011sdcodecamp/demos/mroctopus05/WEB-INF/bluedragon/bluedragon.xml.bak.1</lastfile>
     <runtimelogging>true</runtimelogging>
     <deniedips></deniedips>
     <defaultcharset>utf-8</defaultcharset>
@@ -18,7 +18,7 @@
     <scriptprotect>false</scriptprotect>
     <nativelibdir>/WEB-INF/bin</nativelibdir>
     <errorhandler></errorhandler>
-    <lastupdated>05/Nov/2011 00:44.27</lastupdated>
+    <lastupdated>05/Nov/2011 01:28.24</lastupdated>
     <whitespacecomp>false</whitespacecomp>
     <allowedips></allowedips>
   </system>
@@ -67,9 +67,10 @@
   </debugoutput>
   <openbdadminapi>
     <version>2.0</version>
-    <lastupdated>05/Nov/2011 00:44:27</lastupdated>
+    <lastupdated>05/Nov/2011 00:44:38</lastupdated>
   </openbdadminapi>
   <cfapplication>
+    <clientglobalupdatesdisabled>true</clientglobalupdatesdisabled>
     <j2eesession>false</j2eesession>
     <applicationtimeout>#CreateTimeSpan(2,0,0,0)#</applicationtimeout>
     <clientpurgeenabled>true</clientpurgeenabled>
@@ -78,17 +79,21 @@
     <clientexpiry>90</clientexpiry>
     <enabled>true</enabled>
     <clientstorage>cookie</clientstorage>
-    <clientGlobalUpdatesDisabled>true</clientGlobalUpdatesDisabled>
   </cfapplication>
   <cfcachecontent>
     <datasource></datasource>
     <total>1000</total>
   </cfcachecontent>
   <cfmail>
-    <smtpserver>127.0.0.1</smtpserver>
-    <threads>1</threads>
+    <usetls>false</usetls>
+    <interval>240</interval>
     <charset>UTF-8</charset>
+    <domain></domain>
     <smtpport>25</smtpport>
+    <smtpserver>127.0.0.1</smtpserver>
+    <timeout>60</timeout>
+    <usessl>false</usessl>
+    <threads>1</threads>
   </cfmail>
   <cfmlcustomtags>
     <mapping name="cf">

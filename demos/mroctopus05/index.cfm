@@ -8,6 +8,14 @@
 		
 		<h2>Demo 05</h2>
 		
+		<cfset bob = createObject("component", "person").init("Bob", "Dylan", "5/24/1941")>
 
+<!--- 		<cfdump var="#person#"> --->
+
+<!---
+		<cfoutput>#bob.getFirstName()# #bob.getLastName()# was born on #bob.getBirthdate()#</cfoutput>
+		<cfoutput><p>Setting the first name to 'Miles'. #bob.setFirstName('Miles')#</p></cfoutput>
+		<cfoutput>#bob.getFirstName()# #bob.getLastName()# was born on #bob.getBirthdate()#</cfoutput>
+--->
 	</body>
 </html>

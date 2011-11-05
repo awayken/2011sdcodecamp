@@ -18,7 +18,7 @@
     <scriptprotect>false</scriptprotect>
     <nativelibdir>/WEB-INF/bin</nativelibdir>
     <errorhandler></errorhandler>
-    <lastupdated>05/Nov/2011 00:44.12</lastupdated>
+    <lastupdated>05/Nov/2011 00:44.27</lastupdated>
     <whitespacecomp>false</whitespacecomp>
     <allowedips></allowedips>
   </system>
@@ -26,6 +26,10 @@
     <maxfiles>1000</maxfiles>
     <trustcache>false</trustcache>
   </file>
+  <cfchart>
+    <cachesize>1000</cachesize>
+    <storage>file</storage>
+  </cfchart>
   <fonts>
     <dirs>/usr/X11R6/lib/X11/fonts/ttf,/usr/X11R6/lib/X11/fonts/TTF</dirs>
   </fonts>
@@ -63,14 +67,18 @@
   </debugoutput>
   <openbdadminapi>
     <version>2.0</version>
-    <lastupdated>05/Nov/2011 00:44:12</lastupdated>
+    <lastupdated>05/Nov/2011 00:44:27</lastupdated>
   </openbdadminapi>
   <cfapplication>
+    <j2eesession>false</j2eesession>
+    <applicationtimeout>#CreateTimeSpan(2,0,0,0)#</applicationtimeout>
+    <clientpurgeenabled>true</clientpurgeenabled>
+    <sessiontimeout>#CreateTimeSpan(0,0,20,0)#</sessiontimeout>
+    <cf5clientdata>false</cf5clientdata>
+    <clientexpiry>90</clientexpiry>
     <enabled>true</enabled>
     <clientstorage>cookie</clientstorage>
-    <sessiontimeout>#CreateTimeSpan(0,0,20,0)#</sessiontimeout>
-    <applicationtimeout>#CreateTimeSpan(2,0,0,0)#</applicationtimeout>
-    <j2eesession>false</j2eesession>
+    <clientGlobalUpdatesDisabled>true</clientGlobalUpdatesDisabled>
   </cfapplication>
   <cfcachecontent>
     <datasource></datasource>

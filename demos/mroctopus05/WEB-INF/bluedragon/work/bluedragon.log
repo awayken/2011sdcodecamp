@@ -1,0 +1,59 @@
+
+]--- Logging Started ------[
+05/11/11 02:07.09: -] RunTimeError Directory=[/Users/codecamp/Desktop/2011sdcodecamp/demos/mroctopus05/WEB-INF/bluedragon/work/temp/rtelogs], Max=[100]
+05/11/11 02:07.09: BlueDragon WorkingDirectory=[/Users/codecamp/Desktop/2011sdcodecamp/demos/mroctopus05/WEB-INF/bluedragon/work]
+05/11/11 02:07.09: BlueDragon TempDirectory=[/Users/codecamp/Desktop/2011sdcodecamp/demos/mroctopus05/WEB-INF/bluedragon/work/temp]
+05/11/11 02:07.09: dbPool: Initialised using: OpenBD DBPoolManager $Revision: 1.1 $
+05/11/11 02:07.09: OutgoingMailServer started mainDirectory=/Users/codecamp/Desktop/2011sdcodecamp/demos/mroctopus05/WEB-INF/bluedragon/work/cfmail
+05/11/11 02:07.09: CollectionFactory.init(): no <cfcollection> found in configuration
+05/11/11 02:07.09: BlueDragon server is starting up...
+05/11/11 02:07.09: Product Version: 1.5
+05/11/11 02:07.09: Build date: 2011-11-02 01:01:24 GMT
+05/11/11 02:07.09: tagChecker loaded: 140 tags
+05/11/11 02:07.09: cfmlFileCache Configuration. Caching=1000 files; trusted cache=false
+05/11/11 02:07.09: cfmlFileCache.loadCustomTagMappings [CF_] >> [/WEB-INF/customtags]
+05/11/11 02:07.09: cfmlFileCache.loadCFMappings: no CF mappings defined.
+05/11/11 02:07.09: PluginManager Auto Discovery (openbdplugin-XXXX.jar) ...
+05/11/11 02:07.09: ... found: 0 plugins
+05/11/11 02:07.09: cfEngine: Using default character encoding utf-8
+05/11/11 02:07.09: cfEngine: WebResourcePath /Users/codecamp/Desktop/2011sdcodecamp/demos/mroctopus05/WEB-INF/webresources
+05/11/11 02:07.09: BlueDragon NativeLibDirectory=[/WEB-INF/bin/x64/]
+05/11/11 02:07.09: queryBatchServer started: /Users/codecamp/Desktop/2011sdcodecamp/demos/mroctopus05/WEB-INF/bluedragon/work/cfquerybatch
+05/11/11 02:07.09: -] querySlowLog tracking SQL activity over: 1 seconds
+05/11/11 02:07.09: -] connection pool validation queries ENABLED
+05/11/11 02:07.09: CFIMAP Caching Engine Initialised.
+05/11/11 02:07.09: cfChart: storage=file; size=1000
+05/11/11 02:07.09: ScheduleEngine: Started. Initial Tasks=0
+05/11/11 02:07.09: scheduleEngine started; logfile=/Users/codecamp/Desktop/2011sdcodecamp/demos/mroctopus05/WEB-INF/bluedragon/work/cfschedule/schedule.log
+05/11/11 02:07.10: PlugIn.Load.Installed: org.alanwilliamson.openbd.plugin.spreadsheet.SpreadSheetPlugin; SpreadSheet; Version=1.1718
+05/11/11 02:07.10: PlugIn.Load.Installed: org.alanwilliamson.openbd.plugin.cfsmtp.SmtpPlugin; CFSMTP; Version=1.1751
+05/11/11 02:07.10: Global client variable updates disabled
+05/11/11 02:07.10: cfApplicationManager.DefaultClientStorage=[cookie]
+05/11/11 02:07.10: cfApplicationManager.Using J2EE Sessions? false
+05/11/11 02:07.10: Generating UUID for CFTOKEN value
+05/11/11 02:07.10: cfCacheContent: InMemoryCache=1000
+05/11/11 02:07.10: cfSCRIPT Registered: language=java; class=org.alanwilliamson.lang.java.cfSCRIPTJava
+05/11/11 02:07.10: cfSCRIPT Registered: language=javascript; class=org.alanwilliamson.lang.javascript.cfSCRIPTJavascript
+05/11/11 02:07.10: expressionEngine loaded: 621 functions
+05/11/11 02:07.10: cfEngine: Show Debug output on error? true
+05/11/11 02:07.10: cfEngine: Show Debugger output? false
+05/11/11 02:07.10: cfEngine: Strict Mode: ArrayPassByReference? false
+05/11/11 02:07.10: cfEngine: Strict Mode: FunctionScopedVariables? false
+05/11/11 02:07.10: cfEngine: Assertions disabled
+05/11/11 02:07.10: cfEngine: Combined Form/Url Scope? false
+05/11/11 02:07.10: cfEngine: Legacy server side form validation? true
+05/11/11 02:07.10: BlueDragon has initialised. Ready for requests.
+05/11/11 02:07.10: Server.cfc not available: /Server
+05/11/11 02:07.21: BlueDragon is being shut down ... 
+05/11/11 02:07.21: -] mailSender: thread stop.
+05/11/11 02:07.21: OutgoingMailServer: Shutdown
+05/11/11 02:07.21: -] cfmlFileCache was flushed
+05/11/11 02:07.21: cfmlFileCache was shutdown
+05/11/11 02:07.21: -] cfQueryBatchServer: thread stop.
+05/11/11 02:07.21: -] cfQueryBatchServer: Shutdown
+05/11/11 02:07.21: CFIMAP Caching Engine closed open connections
+05/11/11 02:07.21: -] cfApplicationManager has been shutdown
+05/11/11 02:07.21: OutgoingMailServer: Shutdown
+05/11/11 02:07.21: All logging has been shutdown
+05/11/11 02:07.21: dbPool: All database connections have been closed.
+05/11/11 02:07.21: BlueDragon has been successfully shutdown

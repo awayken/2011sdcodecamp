@@ -18,7 +18,7 @@
     <scriptprotect>false</scriptprotect>
     <nativelibdir>/WEB-INF/bin</nativelibdir>
     <errorhandler></errorhandler>
-    <lastupdated>05/Nov/2011 00:44.27</lastupdated>
+    <lastupdated>05/Nov/2011 00:44.38</lastupdated>
     <allowedips></allowedips>
     <whitespacecomp>false</whitespacecomp>
   </system>
@@ -26,6 +26,10 @@
     <maxfiles>1000</maxfiles>
     <trustcache>false</trustcache>
   </file>
+  <cfchart>
+    <cachesize>1000</cachesize>
+    <storage>file</storage>
+  </cfchart>
   <fonts>
     <dirs>/usr/X11R6/lib/X11/fonts/ttf,/usr/X11R6/lib/X11/fonts/TTF</dirs>
   </fonts>
@@ -63,7 +67,7 @@
   </debugoutput>
   <openbdadminapi>
     <version>2.0</version>
-    <lastupdated>05/Nov/2011 00:44:27</lastupdated>
+    <lastupdated>05/Nov/2011 00:44:38</lastupdated>
   </openbdadminapi>
   <cfapplication>
     <j2eesession>false</j2eesession>
@@ -77,10 +81,15 @@
     <clientGlobalUpdatesDisabled>true</clientGlobalUpdatesDisabled>
   </cfapplication>
   <cfmail>
-    <smtpserver>127.0.0.1</smtpserver>
-    <threads>1</threads>
-    <smtpport>25</smtpport>
+    <usetls>false</usetls>
+    <interval>240</interval>
     <charset>UTF-8</charset>
+    <domain></domain>
+    <smtpport>25</smtpport>
+    <smtpserver>127.0.0.1</smtpserver>
+    <timeout>60</timeout>
+    <usessl>false</usessl>
+    <threads>1</threads>
   </cfmail>
   <cfcachecontent>
     <datasource></datasource>

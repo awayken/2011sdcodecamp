@@ -6,7 +6,7 @@
     <assert>false</assert>
     <missingtemplatehandler></missingtemplatehandler>
     <tempdirectory>/WEB-INF/bluedragon/work/temp</tempdirectory>
-    <lastfile>/Users/codecamp/Desktop/2011sdcodecamp/demos/mroctopus04/WEB-INF/bluedragon/bluedragon.xml.bak.1</lastfile>
+    <lastfile>/Users/codecamp/Desktop/2011sdcodecamp/demos/mroctopus05/WEB-INF/bluedragon/bluedragon.xml.bak.1</lastfile>
     <runtimelogging>true</runtimelogging>
     <deniedips></deniedips>
     <defaultcharset>utf-8</defaultcharset>
@@ -18,7 +18,7 @@
     <scriptprotect>false</scriptprotect>
     <nativelibdir>/WEB-INF/bin</nativelibdir>
     <errorhandler></errorhandler>
-    <lastupdated>05/Nov/2011 00:44.38</lastupdated>
+    <lastupdated>05/Nov/2011 02:07.10</lastupdated>
     <allowedips></allowedips>
     <whitespacecomp>false</whitespacecomp>
   </system>
@@ -71,6 +71,7 @@
   </openbdadminapi>
   <cfapplication>
     <j2eesession>false</j2eesession>
+    <clientglobalupdatesdisabled>true</clientglobalupdatesdisabled>
     <applicationtimeout>#CreateTimeSpan(2,0,0,0)#</applicationtimeout>
     <clientpurgeenabled>true</clientpurgeenabled>
     <sessiontimeout>#CreateTimeSpan(0,0,20,0)#</sessiontimeout>
@@ -78,7 +79,6 @@
     <clientexpiry>90</clientexpiry>
     <enabled>true</enabled>
     <clientstorage>cookie</clientstorage>
-    <clientGlobalUpdatesDisabled>true</clientGlobalUpdatesDisabled>
   </cfapplication>
   <cfmail>
     <usetls>false</usetls>

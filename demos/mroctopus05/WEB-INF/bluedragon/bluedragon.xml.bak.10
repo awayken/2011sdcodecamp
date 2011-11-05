@@ -1,22 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <server>
-  <cfmail>
-    <smtpserver>127.0.0.1</smtpserver>
-    <threads>1</threads>
-    <smtpport>25</smtpport>
-    <charset>UTF-8</charset>
-  </cfmail>
+  <system>
+    <assert>false</assert>
+    <runtimelogging>true</runtimelogging>
+    <debug>true</debug>
+    <component-cfc>/WEB-INF/bluedragon/component.cfc</component-cfc>
+    <whitespacecomp>false</whitespacecomp>
+    <nativelibdir>/WEB-INF/bin</nativelibdir>
+    <missingtemplatehandler></missingtemplatehandler>
+    <lastfile>/Users/codecamp/Desktop/2011sdcodecamp/demos/mroctopus02/WEB-INF/bluedragon/bluedragon.xml.bak.1</lastfile>
+    <errorhandler></errorhandler>
+    <password>admin</password>
+    <buffersize>0</buffersize>
+    <defaultcharset>utf-8</defaultcharset>
+    <lastupdated>03/Nov/2011 23:07.06</lastupdated>
+    <allowedips></allowedips>
+    <deniedips></deniedips>
+  </system>
+  <file>
+    <maxfiles>1000</maxfiles>
+    <trustcache>false</trustcache>
+  </file>
+  <fonts>
+    <dirs>/usr/X11R6/lib/X11/fonts/ttf,/usr/X11R6/lib/X11/fonts/TTF</dirs>
+  </fonts>
   <cfquery>
     <cache>true</cache>
     <slowlog>1</slowlog>
   </cfquery>
-  <cfapplication>
-    <clientstorage>cookie</clientstorage>
-    <enabled>true</enabled>
-    <sessiontimeout>#CreateTimeSpan(0,0,20,0)#</sessiontimeout>
-    <applicationtimeout>#CreateTimeSpan(2,0,0,0)#</applicationtimeout>
-    <j2eesession>false</j2eesession>
-  </cfapplication>
   <debugoutput>
     <executiontimes>
       <show>true</show>
@@ -44,32 +55,27 @@
     </variables>
     <ipaddresses></ipaddresses>
   </debugoutput>
-  <file>
-    <maxfiles>1000</maxfiles>
-    <trustcache>false</trustcache>
-  </file>
+  <openbdadminapi>
+    <version>2.0</version>
+    <lastupdated>03/Nov/2011 22:31:34</lastupdated>
+  </openbdadminapi>
+  <cfapplication>
+    <clientstorage>cookie</clientstorage>
+    <enabled>true</enabled>
+    <sessiontimeout>#CreateTimeSpan(0,0,20,0)#</sessiontimeout>
+    <applicationtimeout>#CreateTimeSpan(2,0,0,0)#</applicationtimeout>
+    <j2eesession>false</j2eesession>
+  </cfapplication>
+  <cfmail>
+    <smtpserver>127.0.0.1</smtpserver>
+    <threads>1</threads>
+    <smtpport>25</smtpport>
+    <charset>UTF-8</charset>
+  </cfmail>
   <cfmlcustomtags>
     <mapping name="cf">
       <directory>/WEB-INF/customtags</directory>
       <name>cf</name>
     </mapping>
   </cfmlcustomtags>
-  <system>
-    <assert>false</assert>
-    <runtimelogging>true</runtimelogging>
-    <debug>true</debug>
-    <component-cfc>/WEB-INF/bluedragon/component.cfc</component-cfc>
-    <whitespacecomp>false</whitespacecomp>
-    <nativelibdir>/WEB-INF/bin</nativelibdir>
-    <missingtemplatehandler></missingtemplatehandler>
-    <lastfile>/Users/codecamp/Desktop/mroctopus/WEB-INF/bluedragon/bluedragon.xml.bak.1</lastfile>
-    <errorhandler></errorhandler>
-    <password>admin</password>
-    <buffersize>0</buffersize>
-    <defaultcharset>utf-8</defaultcharset>
-    <lastupdated>03/Nov/2011 21:57.01</lastupdated>
-  </system>
-  <fonts>
-    <dirs>/usr/X11R6/lib/X11/fonts/ttf,/usr/X11R6/lib/X11/fonts/TTF</dirs>
-  </fonts>
 </server>
