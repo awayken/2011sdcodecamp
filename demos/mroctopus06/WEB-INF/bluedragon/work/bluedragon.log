@@ -45,3 +45,17 @@
 05/11/11 02:08.59: BlueDragon has initialised. Ready for requests.
 05/11/11 02:08.59: Server.cfc not available: /Server
 05/11/11 02:09.04: cfApplicationManager.createApp: Demo05
+05/11/11 02:15.53: BlueDragon is being shut down ... 
+05/11/11 02:15.53: -] mailSender: thread stop.
+05/11/11 02:15.53: OutgoingMailServer: Shutdown
+05/11/11 02:15.53: -] cfmlFileCache was flushed
+05/11/11 02:15.53: cfmlFileCache was shutdown
+05/11/11 02:15.53: -] cfQueryBatchServer: thread stop.
+05/11/11 02:15.53: -] cfQueryBatchServer: Shutdown
+05/11/11 02:15.53: CFIMAP Caching Engine closed open connections
+05/11/11 02:15.53: cfApplicationManager.onApplicationEnd: Demo05
+05/11/11 02:15.53: -] cfApplicationManager has been shutdown
+05/11/11 02:15.53: OutgoingMailServer: Shutdown
+05/11/11 02:15.53: All logging has been shutdown
+05/11/11 02:15.53: dbPool: All database connections have been closed.
+05/11/11 02:15.53: BlueDragon has been successfully shutdown
