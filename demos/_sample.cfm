@@ -6,7 +6,7 @@
 	<body>
 		<h1>Mr. Octopus Welcomes You!</h1>
 		
-		<h2>Demo 04 &mdash; CHANGE</h2>
+		<h2>Demo XX &mdash; CHANGE</h2>
 		
 		<div>
 		</div>
