@@ -8,9 +8,40 @@
 		
 		<h2>Demo 04</h2>
 		
-		<ol>
-			<li><a href="udf.cfm">User-Defined Functions (UDFs)</a></li>
-		</ol>
+<!---
+		<div>
+		<cfscript>
+			name="Miles";
+			age = 28;
+			isPresenting = true;
+			datePresenting = Now();
+			
+			WriteOutput('<p>' & name & ' (' & age & '). Presenting? ' & isPresenting & ' on ' & datePresenting & '.</p>');
+		</cfscript>
+		</div>
+--->
+		
+<!---
+		<div>
+			<cffunction name="addNumbers">
+				<cfargument name="input1">
+				<cfargument name="input2">
+				
+				<cfoutput>Adding...<br /></cfoutput>
+				
+				<cfreturn Val(arguments.input1) + Val(arguments.input2)>
+			</cffunction>
+			
+			<ul>
+				<li><cfoutput><p>#addNumbers(40, 12)#</p></cfoutput></li>
+				<li><cfoutput><p>#addNumbers(input1 = 34, input2 = 43)#</p></cfoutput></li>
+				<li>
+					<cfset numbers = { input1 = 33, input2 = 22 }>
+					<cfoutput><p>#addNumbers(argumentCollection = numbers)#</p></cfoutput>
+				</li>
+			</ul>
+		</div>
+--->
 
 	</body>
 </html>

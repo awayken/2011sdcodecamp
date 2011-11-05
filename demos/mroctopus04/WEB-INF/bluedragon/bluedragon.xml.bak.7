@@ -1,26 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <server>
   <system>
+    <assert>false</assert>
+    <runtimelogging>true</runtimelogging>
+    <debug>true</debug>
+    <component-cfc>/WEB-INF/bluedragon/component.cfc</component-cfc>
+    <whitespacecomp>false</whitespacecomp>
+    <nativelibdir>/WEB-INF/bin</nativelibdir>
+    <missingtemplatehandler></missingtemplatehandler>
+    <lastfile>/Users/codecamp/Desktop/2011sdcodecamp/demos/mroctopus03/WEB-INF/bluedragon/bluedragon.xml.bak.1</lastfile>
+    <errorhandler></errorhandler>
     <buffersize>0</buffersize>
     <password>admin</password>
-    <assert>false</assert>
-    <missingtemplatehandler></missingtemplatehandler>
-    <tempdirectory>/WEB-INF/bluedragon/work/temp</tempdirectory>
-    <lastfile>/Users/codecamp/Desktop/2011sdcodecamp/demos/mroctopus04/WEB-INF/bluedragon/bluedragon.xml.bak.1</lastfile>
-    <runtimelogging>true</runtimelogging>
     <deniedips></deniedips>
-    <defaultcharset>utf-8</defaultcharset>
-    <component-cfc>/WEB-INF/bluedragon/component.cfc</component-cfc>
-    <scriptsrc>/bluedragon/scripts</scriptsrc>
-    <servercfc>/Server.cfc</servercfc>
-    <debug>true</debug>
-    <legacyformvalidation>true</legacyformvalidation>
-    <scriptprotect>false</scriptprotect>
-    <nativelibdir>/WEB-INF/bin</nativelibdir>
-    <errorhandler></errorhandler>
-    <lastupdated>05/Nov/2011 00:44.12</lastupdated>
-    <whitespacecomp>false</whitespacecomp>
     <allowedips></allowedips>
+    <lastupdated>03/Nov/2011 23:13.09</lastupdated>
+    <defaultcharset>utf-8</defaultcharset>
   </system>
   <file>
     <maxfiles>1000</maxfiles>
@@ -31,7 +26,6 @@
   </fonts>
   <cfquery>
     <cache>true</cache>
-    <cachecount>1000</cachecount>
     <slowlog>1</slowlog>
   </cfquery>
   <debugoutput>
@@ -63,7 +57,7 @@
   </debugoutput>
   <openbdadminapi>
     <version>2.0</version>
-    <lastupdated>05/Nov/2011 00:44:12</lastupdated>
+    <lastupdated>03/Nov/2011 22:31:34</lastupdated>
   </openbdadminapi>
   <cfapplication>
     <enabled>true</enabled>
@@ -72,10 +66,6 @@
     <applicationtimeout>#CreateTimeSpan(2,0,0,0)#</applicationtimeout>
     <j2eesession>false</j2eesession>
   </cfapplication>
-  <cfcachecontent>
-    <datasource></datasource>
-    <total>1000</total>
-  </cfcachecontent>
   <cfmail>
     <smtpserver>127.0.0.1</smtpserver>
     <threads>1</threads>
