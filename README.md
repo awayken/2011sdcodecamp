@@ -1,6 +1,10 @@
 Open Source CFML: From Basic to Badass
 ======================================
 
-Includes slides presented at the 2011 South Dakota Code Camp and demo files.
-The slides are in PowerPoint, but you can view then on SlideShare
-at <http://www.slideshare.net/awayken/open-source-cfml-from-basic-to-badass>.
+This project includes:
+  * presentation.pptx - slides presented at the 2011 South Dakota Code Camp
+  * demos/ - demo CFML sites
+  * mroctopus.sql - MySQL dump for the CFQUERY demos
+  * README.md - this file
+
+You can view the presentation on SlideShare at <http://www.slideshare.net/awayken/open-source-cfml-from-basic-to-badass>.
